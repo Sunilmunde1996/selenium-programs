@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="regression test">
+  <test thread-count="5" name="login validation">
+    <classes>
+      <class name="Demo.Loginusing1testng"/>
+      <methods>
+      <include name="loginzerodha"/>
+      </methods>
+       
+     </classes>
+      </test> <!-- Test -->
+      <test name="homepage validation">
+      <classes>
+      <class name="Demo.Loginusing1hometestng"/>
+      <methods>
+      <parameter name="a" value="10"/>
+      <parameter name ="b" value="20"/>
+      <include name="loginzerodhaaa"/>
+      <include name="parameter"/>
+      
+      
+      </methods>
+      
+       </classes>
+         </test>
+      
+        </suite> <!-- Suite -->

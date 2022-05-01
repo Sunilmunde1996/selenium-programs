@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite2">
+  <test thread-count="5" name="homepagevalidation">
+  
+  <parameter name= "user" value ="HLV392USE"/>
+  <parameter name ="pass" value ="Sachin@123"/>
+  <parameter name="pin"  value ="911942"/>
+  <classes>
+     <class name="Demo.Loginusing1hometestng"/>
+     <methods>
+     <include  name="practice" />
+      </methods>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite2 -->
